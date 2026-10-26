@@ -1,7 +1,7 @@
 ## Interface: 11200
 ## Title: Battle Report
 ## Notes: Lightweight personal combat reports, live and after each fight.
-## Author: Local
+## Author: Babuni.dev
 ## Version: 1.6.5
 ## SavedVariablesPerCharacter: BattleReportDB
 
