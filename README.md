@@ -1,5 +1,7 @@
 # Battle Report
 
+**Author:** Babuni.dev
+
 **Get to know your fights.** A lightweight personal combat report for World of Warcraft 1.12. Watch your numbers live, review your last encounter, or see your average performance across up to 100 fights.
 
 **[Download the latest addon ZIP](https://github.com/Morkahja/BattleReport/releases/latest/download/BattleReport.zip)** · [All releases](https://github.com/Morkahja/BattleReport/releases)
