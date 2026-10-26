@@ -4,7 +4,7 @@
 
 **Get to know your fights.** A lightweight personal combat report for World of Warcraft 1.12. Watch your numbers live, review your last encounter, or see your average performance across up to 100 fights.
 
-**[Download the latest addon ZIP](https://github.com/Morkahja/BattleReport/releases/latest/download/BattleReport.zip)** · [All releases](https://github.com/Morkahja/BattleReport/releases)
+**[Download v1.6.5 addon ZIP](https://github.com/babunidev/BattleReport/releases/download/v1.6.5/BattleReport.zip)** · [All releases](https://github.com/babunidev/BattleReport/releases)
 
 ## What does it show?
 
@@ -19,7 +19,7 @@ This is a report for **your character**, not a group ranking. Pets and separatel
 
 ## Installation
 
-1. [Download **BattleReport.zip**](https://github.com/Morkahja/BattleReport/releases/latest/download/BattleReport.zip) and extract it.
+1. [Download **BattleReport.zip**](https://github.com/babunidev/BattleReport/releases/download/v1.6.5/BattleReport.zip) and extract it.
 2. Copy the **BattleReport** folder into your game's **Interface\AddOns** folder.
 3. Check that the folder structure looks like this—avoid an extra folder inside another folder:
 
@@ -116,7 +116,7 @@ Effect gains are not always separate procs, and hits or periodic ticks are not s
 
 | Command | Action |
 | --- | --- |
-| `/battlereport` or `/battlereport` | Open or close the report |
+| `/breport` or `/battlereport` | Open or close the report |
 | `/battlereport last` | Show the last completed fight |
 | `/battlereport button` | Hide or show the launcher |
 | `/battlereport position` | Restore window and launcher positions |
@@ -128,10 +128,19 @@ For capture details, fight boundaries and testing notes, see the [detailed guide
 
 Recording starts when you enter combat and stops immediately when you leave it. Falling damage, healing, casts and resource changes outside combat do not create or enter reports. Opening actions reported before combat begins are excluded.
 
+## Release and verification notes
+
+The published [v1.6.5 release](https://github.com/babunidev/BattleReport/releases/tag/v1.6.5) contains BattleReport.zip and SHA256SUMS.txt. Its September 18, 2026 release notes **report** successful source/package syntax and regression/migration checks; these have **not** been independently rerun in the October 26 documentation audit. The ZIP's bytes have not been downloaded and compared with the current source in this session.
+
+Current source uses interface 11200, loads five Lua modules and stores history in **per-character BattleReportDB**. The [test harness](tests/test_report.py) needs Python lupa (Lua 5.1) and a locally supplied archived Blizzard 1.12.1 GlobalStrings.lua, deliberately excluded from Git; the [migration fixture](tests/test_upgrade.ps1) requires PowerShell. A report is an **observation**, not a guaranteed complete account of casts, item procs or exact regeneration sources.
+
+This project started as **Octo Battle Report**. Its September rename changed both addon and saved-variable identity, requiring migration. No LICENSE file is present in the inspected main tree. Preserve Babuni.dev's original creative authorship and distinguish it from later AI-written documentation.
+
 ## Development documentation
 
 - [Concept](CONCEPT.md) · [Roadmap](ROADMAP.md) · [Changelog](CHANGELOG.md)
-- [Architecture](docs/ARCHITECTURE.md) · [Design evidence](docs/DECISIONS.md) · [Development journal](docs/DEVLOG.md)
-- [AI collaborator rules](AGENTS.md)
+- [Architecture](docs/ARCHITECTURE.md) · [Interaction design](docs/DESIGN.md) · [Data and content](docs/CONTENT.md)
+- [Decisions](docs/DECISIONS.md) · [Narrative development journal](docs/DEVLOG.md)
+- [Human–AI collaboration](docs/AI_COLLABORATION.md) · [Developer / AI instructions](AGENTS.md)
 
-The journal distinguishes source-based reconstruction, author direction, AI assistance, and independently verified behavior.
+The development record distinguishes repository evidence, reported historic tests, present independent verification and unapproved proposals.
