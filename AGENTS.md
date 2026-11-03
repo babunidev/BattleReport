@@ -1,6 +1,6 @@
 # BattleReport — human and AI development rules
 
-**Creative owner / final decision-maker:** Babuni.dev. **Current:** Battle Report v1.6.5; originally Octo Battle Report.
+**Human creative / final decision-maker:** Babuni. **Current:** Battle Report v1.6.5; originally Octo Battle Report.
 
 Read README, GUIDE, TOC, all five Lua modules, existing tests, ROADMAP, docs/ARCHITECTURE, docs/DEVLOG and docs/DECISIONS before implementation. Preserve the **lightweight personal-report** premise, not a party leaderboard or automatic combat optimizer.
 
@@ -23,6 +23,10 @@ Read README, GUIDE, TOC, all five Lua modules, existing tests, ROADMAP, docs/ARC
 
 Run **python tests/test_report.py** only with the independently supplied 1.12.1 GlobalStrings fixture and lupa Lua 5.1; the fixture is gitignored. Run **tests/test_upgrade.ps1** on safe temporary folders. Record command, environment, actual output and gaps. Synthetic tests do **not** prove an actual WoW game session worked. Do not claim pass without executing the test.
 
-For each substantial change update README, GUIDE when user facing, CHANGELOG, CONCEPT, ROADMAP, AGENTS, docs/DEVLOG, docs/DECISIONS, docs/DESIGN, docs/CONTENT, docs/ARCHITECTURE and docs/AI_COLLABORATION as relevant. Preserve *user direction*, assistant proposals, creative iteration, explicit user decisions, changed files/commits, and independently observed tests. Do not attribute Babuni.dev's original creative vision to AI.
+For each substantial change update README, GUIDE when user facing, CHANGELOG, CONCEPT, ROADMAP, AGENTS, docs/DEVLOG, docs/DECISIONS, docs/DESIGN, docs/CONTENT, docs/ARCHITECTURE and docs/AI_COLLABORATION as relevant. Preserve *user direction*, assistant proposals, creative iteration, explicit user decisions, changed files/commits, and independently observed tests. Do not attribute Babuni's original creative vision to AI.
 
 Avoid publishing real combat histories, private characters/accounts, original private chats or credentials. This 2026-10-26 task is documentation-only.
+
+## Repository-local documentation standard
+
+Before writing or changing project documentation, read [docs/DOCUMENTATION.md](docs/DOCUMENTATION.md). These rules travel with this repository and do not depend on the babuni.dev ChatGPT Project. Preserve all project-specific technical, creative, canon, safety, licensing, and historical rules in this file; follow the linked standard for public first-person narrative, human–AI attribution, concise development journals, decision records, and evidence-based verification. **Babuni** is the human creative; **babuni.dev** is the website/portfolio, not the person. Preserve third-party credits and historical legal notices. References above to a dated “documentation-only audit” describe that past task, not a permanent ban on later authorized implementation.
