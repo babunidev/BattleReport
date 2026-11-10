@@ -1,6 +1,6 @@
-# BattleReport — narrative development history
+# BattleReport — development journal
 
-**Creator and creative director:** Babuni.dev.  
+**Creative:** Babuni  
 **Method:** retrospective based on live README, GUIDE, five Lua source modules, dated Git diffs, regression/migration scripts and GitHub release metadata. Prepared October 26, 2026. Original creative conversations not available in this material have **not** been fabricated.
 
 ## The starting question: what actually happened in my fight?
