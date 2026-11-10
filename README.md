@@ -1,6 +1,6 @@
 # Battle Report
 
-**Author:** Babuni.dev
+**Creative:** Babuni
 
 **Get to know your fights.** A lightweight personal combat report for World of Warcraft 1.12. Watch your numbers live, review your last encounter, or see your average performance across up to 100 fights.
 
