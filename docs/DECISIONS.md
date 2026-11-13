@@ -30,3 +30,7 @@
 Should pets be included via an explicit choice? Should there be a separately marked optional precombat buffer? Should history extend beyond 100? Should effect source confidence be visual? Should animation duration be customizable? Which client locales are actually supported? What license should apply to the original code?
 
 These are **proposals only**. The documentation audit approved/implemented no runtime change. Preserve user alternatives and actual later decisions when they exist.
+
+## 2026-11-13 — Licensing decision
+
+To make the reuse terms explicit, I approved MIT for original addon software. This applies only to material for which the relevant rights can be granted; third-party contributors keep their own credits and licenses. AI assistance committed the license notice and updated project-facing documentation. This was a legal/documentation change, not a runtime feature or test.
