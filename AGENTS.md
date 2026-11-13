@@ -17,7 +17,7 @@ Read README, GUIDE, TOC, all five Lua modules, existing tests, ROADMAP, docs/ARC
 - Source labels supplied by the user are descriptions, **not proofs** that an item caused an effect.
 - Do not merge pet/totem damage into player totals without explicit creative approval.
 - The Sep 18 rename from OctoBattleReportDB to BattleReportDB needs safe migration and backups.
-- There is **no LICENSE** in this repository. Never invent one or silently redistribute external fixture files.
+- The original software is MIT-licensed under `LICENSE` (13 November 2026). Do not relicense or silently redistribute external fixture files.
 
 ## Testing and provenance
 
