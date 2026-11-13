@@ -31,3 +31,8 @@ The [v1.6.5 release](https://github.com/babunidev/BattleReport/releases/tag/v1.6
 ## October 26 — attribution and doc foundations
 
 Commits **ab15e79**, **2725e14**, **d5888bd** and **b57a8b4** standardized the Babuni.dev author credit and created the initial short docs/README links. This expanded narrative replaces that scaffold without retroactively inventing development conversations.
+
+## 2026-11-13 — License and rights
+
+- Established MIT for original addon software and updated repository documentation to explain the permission boundary.
+- Preserved third-party authorship and external assets' separate terms. No gameplay or runtime verification is claimed.
