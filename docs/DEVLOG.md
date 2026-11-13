@@ -72,3 +72,7 @@ The editorial work also checked the release metadata and found the README's **ol
 A real test session should compare a single fight with its log, observe a health/resource change, try one identifiable weapon/item proc and document the differences between recorded cast modes. It should also verify old-data migration on backups and the quick report's drag/cleanup flow in a true client.
 
 The project's artistic interest is that it treats **the boundaries of knowledge** as a design problem: there is the event the client reported, the number the UI derives, and the player's interpretation. Making those distinct is part of what transformed a personal combat notebook into a thoughtfully designed analysis tool.
+
+## 2026-11-13 — Giving the repository clear permissions
+
+Public source alone did not explain what others could reuse, so I approved MIT for the original addon code. AI assistance added the license and brought the project notes into agreement, without changing how the application runs. Other people's content retains its own terms.
