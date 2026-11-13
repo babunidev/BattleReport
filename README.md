@@ -134,7 +134,7 @@ The published [v1.6.5 release](https://github.com/babunidev/BattleReport/release
 
 Current source uses interface 11200, loads five Lua modules and stores history in **per-character BattleReportDB**. The [test harness](tests/test_report.py) needs Python lupa (Lua 5.1) and a locally supplied archived Blizzard 1.12.1 GlobalStrings.lua, deliberately excluded from Git; the [migration fixture](tests/test_upgrade.ps1) requires PowerShell. A report is an **observation**, not a guaranteed complete account of casts, item procs or exact regeneration sources.
 
-This project started as **Octo Battle Report**. Its September rename changed both addon and saved-variable identity, requiring migration. No LICENSE file is present in the inspected main tree. Preserve Babuni.dev's original creative authorship and distinguish it from later AI-written documentation.
+This project started as **Octo Battle Report**. Its September rename changed both addon and saved-variable identity, requiring migration. The original software is licensed under [MIT](LICENSE) as of 13 November 2026. Preserve Babuni.dev's original creative authorship and distinguish it from later AI-written documentation.
 
 ## Development documentation
 
